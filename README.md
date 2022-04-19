@@ -25,6 +25,7 @@ Consul provides several key features:
 * **Service Discovery** - Consul makes it simple for services to register
   themselves and to discover other services via a DNS or HTTP interface.
   External services such as SaaS providers can be registered as well.
+  外部服务需要注册，无法自动发现服务？
 
 * **Health Checking** - Health Checking enables Consul to quickly alert
   operators about any issues in a cluster. The integration with service
